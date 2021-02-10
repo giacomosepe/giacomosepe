@@ -10,6 +10,6 @@ collections:
     label: "Main"
     folder: "content/"
     create: true
-    slug: "{{ slug }}""
+    slug: "{{ slug }}"
     fields:
       - {label: "Title", name: "title", wiget: "string", required: false }
