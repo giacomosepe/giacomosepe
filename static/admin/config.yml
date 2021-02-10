@@ -5,3 +5,11 @@ backend:
 media_folder: "static/uploads"
 public_folder: "uploads"
 
+collections:
+  - name: "main"
+    label: "Main"
+    folder: "content/main"
+    create: true
+    slug: {{ slug }}
+      fields:
+        - {label: "Title", name: "title", wiget: "string", required: false }
