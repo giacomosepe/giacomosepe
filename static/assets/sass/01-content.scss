@@ -15,7 +15,7 @@ $color-text       : #e6e5fc;
 $color-link       : #e6e5fc;
 $color-link-hover : #6c63ff; 
 $color-maverick   : #efebfd;
-$color-tagline    : #CCCCCC;
+$color-tagline    : #f72f2f;
 
 // Breakpoints
 $bp-smallish      : 1200px;
@@ -140,17 +140,17 @@ body.page-template-page-fullsingle-split {
 //-------------------------------------------------------------------------------
 
 .split-intro {
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 80px;
-  letter-spacing: -2px;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 1.5px;
 
   h1 {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 46px;
     line-height: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     letter-spacing: 0.8px;
     color: $color-maverick;
   }
